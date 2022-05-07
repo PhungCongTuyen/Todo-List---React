@@ -1,0 +1,19 @@
+.container {
+  width: 40%;
+  height: auto;
+  border-right: 1px solid black;
+  min-width: 360px;
+
+  .title {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 1px;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .detailBoxContainer {
+    padding: 50px 100px 60px 80px;
+  }
+}

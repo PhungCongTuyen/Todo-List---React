@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 550px;
+  margin: 10px auto 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 15px;
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    .checkbox {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .text {
+      margin-left: 20px;
+      color: #333333;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 16px;
+      max-width: 200px;
+      word-break: break-word;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    .buttonDetail {
+      width: 93px;
+      height: 30px;
+      color: #FFFFFF;
+      font-family: Arimo, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      text-decoration: none;
+      text-align: center;
+      background: #00BCD4;
+      border: none;
+      border-radius: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .buttonRemove {
+      width: 79px;
+      height: 30px;
+      color: #FFFFFF;
+      font-family: Arimo, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      text-decoration: none;
+      text-align: center;
+      background: #D9534F;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.detailBoxContainer {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto 10px;
+  border: 1px solid black;
+  border-top: none;
+  padding: 25px;
+  box-sizing: border-box;
+}
